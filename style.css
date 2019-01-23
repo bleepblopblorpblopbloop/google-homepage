@@ -1,0 +1,160 @@
+* {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: none repeat scroll 0 0 #fff;
+    color: #222;
+    margin: 0;
+}
+
+.nav {
+	min-height: 100%;
+    position: relative;
+}
+
+#search {
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+div.nav ul{
+    display: inline-block;
+}
+
+div.nav li {
+    display: inline-block;
+    padding: 18px 2px;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    top: 0;
+}
+
+nav ul {
+    padding: 0 0 0 10px;
+}
+
+ul#navl li {
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+}
+
+ul#navr li {
+    float: right;
+    margin-left: 25px;
+    list-style: none;
+}
+
+div.nav ul button {
+    background-color: #4387fd;
+    border-radius: 4px;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 12px;
+}
+
+div#search {
+	position: absolute;
+	margin-top:50px;
+    width:100%;
+    text-align: center;
+}
+
+div#search img {
+	padding:142px 0 24px 0;
+	display: block;
+    margin:0 auto;
+}
+
+input.search_buttons {
+    width: 550px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    font-size: 17px;
+    border-radius: 3px;
+    box-shadow: 2px 2px #d9d9d9;
+    background-image: url(googlemic_color_24dp.png);
+    background-position: 515px 6px;
+    background-size: 24px 25px;
+    background-repeat: no-repeat;
+}
+
+input.search_buttons:focus {
+	border-color:#4387fd;
+}
+
+div#search .buttons {
+	text-align: center;
+    padding-left: 0;
+}
+
+div#search button {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+}
+
+div#search .buttons button:hover {
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#333;
+    cursor: default;
+} 
+
+div.foot {
+    background-color: #f2f2f2;
+    width:100%;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-top: 1px solid #e4e4e4;
+    padding: 9px 12px;
+}
+
+ul a {
+    padding: 0 0 0 10px; 
+}
+
+ul#footl {
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+    display: inline-block;
+}
+
+ul#footr {
+    float: right;
+    margin-left: 25px;
+    list-style: none;
+    display: inline-block;
+}
+
+div.foot li {
+    list-style: none;
+    display: inline-block;
+}
